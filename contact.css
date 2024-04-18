@@ -1,0 +1,155 @@
+
+*
+{
+    margin:0%;
+    padding: 0%;
+    background-color: #1b1e2b;
+
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-color:transparent;
+    
+    font-style: italic;
+    position: relative;
+}
+
+
+h1{
+    color:rgb(255,20,147) ;
+    margin-left: 12%;
+    margin-top: 3%;
+    font-size: 45px;
+}
+span{
+    color: rgb(255,182,193);
+}
+.card
+{
+    height: 80vh;
+    margin-bottom: 5px;
+    
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+  
+    background:rgba(255,255,255,0.06);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+
+}
+.header h3
+{
+    color: rgb(186,85,211);
+    background-color:rgba(255,255,255,0.06);;
+   
+    font-weight: bolder;
+    text-align: center;
+    
+    font-size: 30px;
+    font-style: normal;
+}
+.Contact-inputs{
+    width: 400px;
+    height:50px;
+    border: none;
+    outline:none;
+    
+    padding-left: 25px;
+    font-weight: 500;
+    color:rgb(218, 215, 215);
+    border-radius: 50px;
+    
+}
+.body textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+    width: 400px;
+    padding-left: 25px;
+
+}
+.Contact-inputs:focus
+{
+    border: 2px solid rgb(255,20,147) ;
+}
+.body button
+{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #1b1e2b;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(270deg,#BA55D3,#FF1493,#FFB6C1);
+}
+
+.links a
+{
+  
+     margin-top: 0%;
+     margin-bottom: 50px;
+     padding-bottom: 30px;
+
+ /*padding-left: 5px;
+   width: 37px;
+   height: 27px;
+   padding-bottom: 50px;
+   border-radius: 50%;
+   cursor: pointer;
+   font-size: 17px;
+   margin-right: 20px;
+   padding-bottom: 500px;*/
+}
+
+
+@media (max-width:800px)
+{
+    .Contact-inputs{
+        width:80vw;
+        
+        
+    }
+    .card
+    {
+        height: 500px;
+    }
+    .body h1
+    {
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

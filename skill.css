@@ -1,0 +1,246 @@
+
+*
+{
+    margin:0%;
+    padding: 0%;
+}
+
+
+
+
+
+body
+        {
+            width: 100%;
+           height: 100vh;
+           background-color: #1b1e2b;
+           font-style: italic;
+           position: relative;
+         
+        }
+.topic
+{
+    margin-top: 2%;
+    margin-left: 600px;
+    font-size: 25px;
+
+}
+.topic h1{
+   color:   rgb(255,182,193);
+}
+.topic span{
+    color: rgb(255,20,147) ;
+}
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    padding-left:2px;
+    padding-right: 16px;
+    margin-bottom: 120px;
+   
+    padding-bottom: 100%;
+    padding-top: 10px;
+    margin-top: 2%;
+    
+    
+    
+ 
+    
+   
+   
+
+   
+}
+.html
+{
+    width: 350px;
+    height: 100px;
+  border: 5px solid rgb(186,85,211);
+ padding: 10px;
+  margin: 5px;
+  text-align:center;
+  
+  margin-top: 20px;
+ margin-bottom: 50px;
+  border-radius: 50px;
+  background:linear-gradient(45deg,#f77aa0,#FFB6C1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ transition: 0.3s;
+ 
+ 
+  
+}
+.css
+{
+    width: 350px;
+    height: 100px;
+    border: 5px solid rgb(186,85,211);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   border-radius: 50px;
+   background:linear-gradient(45deg,#f77aa0,#FFB6C1);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   transition: 0.3s;
+
+   
+}
+.js
+{
+    width: 350px;
+    height: 100px;
+    border: 5px solid rgb(186,85,211);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    background:linear-gradient(45deg,#f77aa0,#FFB6C1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+    transition: 0.3s;
+
+}
+.boot
+{
+    width: 350px;
+    height: 100px;
+    border: 5px solid rgb(186,85,211);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    background:linear-gradient(45deg,#f77aa0,#FFB6C1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+    transition: 0.3s;
+
+}
+.python
+{
+    width: 350px;
+    height: 100px;
+    border: 5px solid rgb(186,85,211);
+   padding: 10px;
+    margin: 5px;
+    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   border-radius: 50px;
+   background:linear-gradient(45deg,#f77aa0,#FFB6C1);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   /*background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+   transition: 0.3s;
+
+   
+}
+.c
+{
+    width: 350px;
+    height: 100px;
+    border: 5px solid rgb(186,85,211);
+   padding: 10px;
+    margin: 5px;
+    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   border-radius: 50px;
+   background:linear-gradient(45deg,#f77aa0,#FFB6C1);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  /* background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+   transition: 0.3s;
+
+   
+}
+.html:hover
+{
+    /*background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+    box-shadow: 0 0 5px #FF1493,
+                0 0 25px #ec789f,
+                0 0 50px #FF1493,
+                0 0 200px #ec789f;
+   cursor: pointer;
+    color: #0a0a0a;
+    margin-top: 2%;
+    
+    
+}
+.css:hover
+{
+   /* background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+    box-shadow: 0 0 5px #FF1493,
+                0 0 25px #ec789f,
+                0 0 50px #FF1493,
+                0 0 200px #ec789f;
+   cursor: pointer;
+   color: #0a0a0a;
+   margin-top: 2%;
+}
+.js:hover
+{
+    /*background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+    box-shadow: 0 0 5px #FF1493,
+                0 0 25px #ec789f,
+                0 0 50px #FF1493,
+                0 0 200px #ec789f;
+   cursor: pointer;
+   color: #0a0a0a;
+   margin-top: 2%;
+}
+.boot:hover
+{
+    /*background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+    box-shadow: 0 0 5px #FF1493,
+                0 0 25px #ec789f,
+                0 0 50px #FF1493,
+                0 0 200px #ec789f;
+   cursor: pointer;
+   color: #0a0a0a;
+   margin-top: 2%;
+}
+.python:hover
+{
+    /*background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+    box-shadow: 0 0 5px #FF1493,
+                0 0 25px #ec789f,
+                0 0 50px #FF1493,
+                0 0 200px #ec789f;
+   cursor: pointer;
+   color: #0a0a0a;
+   margin-top: 2%;
+}
+.c:hover
+{
+   /* background:linear-gradient(45deg,#FF1493,#ec789f,#FFB6C1);*/
+    box-shadow: 0 0 5px #FF1493,
+                0 0 25px #ec789f,
+                0 0 50px #FF1493,
+                0 0 200px #ec789f;
+   cursor: pointer;
+   color: #0a0a0a;
+   margin-top: 2%;
+}
+
+@media (max-width:800px)
+{
+    
+    .topic h1{
+       top: 2px;
+       right: 40px;
+
+    }
+}
